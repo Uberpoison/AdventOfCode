@@ -37,5 +37,5 @@ def get_number_of_increased_values(listValues):
     return count
 
 
-listValues = read_values("day01/values.txt")
+listValues = read_values("2021\day01/values.txt")
 print(get_number_of_increased_values(get_sums(listValues)))
